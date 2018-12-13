@@ -1,0 +1,39 @@
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 20px 25px 20px 25px;
+	font-family: 'header', sans-serif;
+	background-color: rgb(55,30,113);
+	color: white;
+}
+
+.link {
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+}
+
+.nameTitle {
+	font-size: 35px;
+}
+
+.routeLinks {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+.link {
+  transition: text-decoration 1s;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

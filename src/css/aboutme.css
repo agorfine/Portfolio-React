@@ -1,0 +1,37 @@
+.aboutmeContainer {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.picMe {
+	height: 400px;
+	width: 400px;
+	border-radius: 200px;
+}
+
+.aboutmeText {
+	width: 430px;
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: center;
+}
+
+.aboutmeInfo {
+	color: rgb(144, 121, 198, .9);
+	font-size: 20px;
+}
+
+.aboutMeTitle {
+	text-align: left;
+	color: rgb(55,30,113);
+	text-shadow:
+		-.4px -.4px 0 #dbccfd, 
+		.4px -.4px 0 #dbccfd,
+		-.4px .4px 0 #dbccfd,
+		.4px .4px 0 #dbccfd;
+	font-size: 15px;
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 7px;
+}

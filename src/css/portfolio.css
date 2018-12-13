@@ -1,0 +1,86 @@
+.background {
+	background-color: rgb(232,223,255, .5);
+	padding-top: 30px;
+}
+
+.portfolioInfo {
+	background-color: white;
+	border-radius: 5px;
+	width: 80%;
+	margin: 0 auto;
+	padding: 36px 50px;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+
+.portfolioPageTitle {
+	color: rgb(55,30,113);
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Playfair Display', serif;
+}
+
+.portfolioProject1 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 40px;
+}
+
+.portfolioProject {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 80px;
+}
+
+.projectPic {
+	height: 300px;
+	width: 400px;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24)
+}
+
+.projectDescription {
+	text-align: center;
+	width: 400px;
+	color: rgb(55,30,113);
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.project3 {
+	width: 200px;
+	height: 300px;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+	margin-left: 10%;
+}
+
+.projectTitles {
+	font-size: 20px;
+	font-family: 'Playfair Display', serif;
+	color: rgb(55,30,113);
+	text-shadow:
+		-.4px -.4px 0 #dbccfd, 
+		.4px -.4px 0 #dbccfd,
+		-.4px .4px 0 #dbccfd,
+		.4px .4px 0 #dbccfd;
+}
+
+.projectInformation {
+	margin-Top: 15px;
+	margin-bottom: 15px;
+	font-size: 19px;
+	color: rgb(144, 121, 198, .9);
+}
+
+.linkBox {
+	margin-top: 45px;
+}
+
+.gitLink {
+	text-decoration: none;
+	margin-top: 10px;
+	padding: 10px 30px;
+	color: white;
+	background-color: rgb(55,30,113);
+	border-radius: 20px;
+}

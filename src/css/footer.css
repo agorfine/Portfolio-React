@@ -1,0 +1,16 @@
+.footer {
+	text-align: center;
+    padding: 40px;
+    color: rgb(55,30,113);
+    font-size: 20px;
+/*	text-shadow:
+		-.5px -.5px 0 rgb(55,30,113),
+		.5px -.5px 0 rgb(55,30,113),
+		-.5px .5px 0 rgb(55,30,113),
+		.5px .5px 0 rgb(55,30,113);*/
+}
+
+.footerHead {
+    height: 103px;
+    background-color: rgb(232,223,255, .5);
+}
