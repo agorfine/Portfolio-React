@@ -44,7 +44,7 @@ function Portfolio (props) {
 							<a className = 'gitLink' href="https://github.com/agorfine/tic-tac-toe" target="_blank" rel="noopener noreferrer">View my Code </a>
 						</div>
 					</div>
-					<img className = 'projectPic project4' src="https://res.cloudinary.com/drsaojfyp/image/upload/v1544733191/Screen_Shot_2018-12-13_at_3.32.38_PM.png" alt= "project1"/>
+					<img className = 'projectPic project4' src="https://res.cloudinary.com/drsaojfyp/image/upload/v1544733270/Screen_Shot_2018-12-13_at_3.34.17_PM.png" alt= "project1"/>
 				</div>
 				<div className = 'portfolioProject'>
 					<img className = 'projectPic project4' src="https://res.cloudinary.com/drsaojfyp/image/upload/v1542481645/Screen_Shot_2018-11-17_at_1.59.01_PM.png" alt= "project1"/>
