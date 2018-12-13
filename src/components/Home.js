@@ -28,10 +28,10 @@ function Home(props) {
 							<div className='projectTitleShown'>Disney Trip Adviser</div>
 						</div>	
 						<div className= 'projectContainer'>
-							<a className = 'project project3Home' href="https://herokudeployfinsta.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+							<a className = 'project project3Home' href="https://agorfine.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer">
 								<div className = 'projectTitle'>Instagram</div>
 							</a>
-							<div className='projectTitleShown'>Instagram</div>
+							<div className='projectTitleShown'>Tic-Tac-Toe</div>
 						</div>
 						<div className='projectContainer'>
 							<a className = 'project project4' href="https://agorfine.github.io/Duck-Hunt/" target="_blank" rel="noopener noreferrer">
