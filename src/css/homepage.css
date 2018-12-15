@@ -206,7 +206,7 @@
 
 }
 
-@media screen and (max-height: 717px) {
+@media screen and (max-height: 633px) {
 	.heroImage {
 	    background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542591399/lavender.jpg);
 	    background-size: 324%;
@@ -298,7 +298,7 @@
 	}
 }
 
-@media screen and (max-height: 696px) {
+@media screen and (max-height: 628px) {
 	.heroImage {
 	    background-size: 263%;
 	    height: 680px;
@@ -388,7 +388,7 @@
 	}
 }
 
-@media screen and (max-height: 627px) {
+@media screen and (max-height: 559px) {
 	.heroImage {
 	    background-size: 267%;
 	    height: 512px;
@@ -482,7 +482,7 @@
 }
 
 
-@media screen and (max-height: 528px) {
+@media screen and (max-height: 460px) {
 	.heroImage {
 	    background-size: 267%;
 	    height: 512px;
