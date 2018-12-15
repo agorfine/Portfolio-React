@@ -196,11 +196,17 @@
 	.heroImage {
 	    background-size: 267%;
 	    height: 512px;
+	    width: -webkit-fill-available;
+	    z-index: -1;
+	    position: absolute;
+	    top: 56px;
+	    background-repeat: no-repeat;
+	    opacity: .9;
 	}
 	.intro {
 		text-align: center;
-		margin-top: 190px;
-		font-size: 23px;
+		margin-top: 203px;
+		font-size: 19px;
 		padding: 0 20px;
 	}
 	.jobTitle {
@@ -300,7 +306,7 @@
 
 	.intro {
 		margin-top: 285px;
-		font-size: 25px;
+		font-size: 23px;
 		padding: 0 20px;
 	}
 	.jobTitle {
@@ -381,115 +387,6 @@
 		font-size: 17px;
 	}
 }
-
-/*@media screen and (max-width: 415px) {
-	.heroImage {
-	    background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542591399/lavender.jpg);
-	    height: 743px;
-	    width: -webkit-fill-available;
-	    z-index: -1;
-	    position: absolute;
-	    top: 56px;
-	    background-size: 250%;
-	    background-repeat: no-repeat;
-	    opacity: .9;
-	}
-
-}*/
-
-/*@media screen and (max-width: 375px) {
-	.heroImage {
-	    background-size: 267%;
-	    height: 512px;
-	}
-	.intro {
-		text-align: center;
-		margin-top: 190px;
-		font-size: 23px;
-		padding: 0 20px;
-	}
-	.jobTitle {
-		text-align: center;
-		font-size: 40px;
-		margin-top: 2px;
-		font-family: 'Playfair Display', serif;
-	}
-	.jobTitle2 {
-		text-align: center;
-		font-size: 40px;
-		margin-top: -10px;
-		font-family: 'Playfair Display', serif;
-	}
-	.space {
-		margin-top: 135px;
-	}
-
-	.lavender {
-		height: 11px;
-	}
-
-	.portfolio, .skills {
-		text-align: center;
-		margin-top: 20px;
-		background-color: white;
-		border-radius: 5px;
-		width: 90%;
-		padding: 5px 5px;
-	}
-
-	.portfolioTitle, .skillsTitle {
-		font-size: 30px;
-		text-align: center;
-		margin-top: 10px;
-	}
-
-	.grid {
-		display: flex;
-		margin-top: 20px;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
-
-	.project {
-		height: 80px;
-		width: 80px;
-		margin: 5px;
-		margin-bottom: 10px;
-		text-decoration: none;
-		color: white;
-		border-radius: 5px;
-	}
-
-	.projectTitle {
-		margin-top: 50%;
-		margin-bottom: 50%;
-		color: transparent;
-	}
-	.projectTitleShown{
-		width: 90px;
-		text-align: center;
-	}
-
-	.projectContainer{
-		font-size: 15px;
-		align-items: center;
-		margin: 10px 20px;
-	}
-
-	.skill {
-		margin: 11px;
-	}
-
-	.icon {
-		width: 43px;
-		height: 43px;
-	}
-
-	.skillsIconTitle {
-		font-size: 14px;
-	}
-}
-*/
 
 @media screen and (min-width: 414px) {
 	.heroImage {
