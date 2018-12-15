@@ -76,6 +76,7 @@
 	font-family: 'Playfair Display', serif;
 }
 
+
 .grid {
 	display: flex;
 	margin-top: 20px;
@@ -97,6 +98,7 @@
 
 .project:hover {
   transform: scale(1.05);
+  text-decoration: none;
 }
 
 .projectTitle {
@@ -110,13 +112,17 @@
 	.5px .5px 0 black;*/
 }
 
+.projectTitleShown{
+	font-family:;
+}
+
 .projectContainer{
 	display: flex;
 	flex-direction: column;
 	color: rgb(55,30,113);
-	font-family: 'header';
-	font-weight: bold;
+	font-family: 'header medium';
 	font-size: 20px;
+	text-decoration: none;
 }
 
 .project1 {
