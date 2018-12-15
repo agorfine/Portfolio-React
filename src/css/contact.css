@@ -1,0 +1,116 @@
+.contactTitle{
+	text-align: left;
+	color: rgb(55,30,113);
+	text-shadow:
+		-.4px -.4px 0 #dbccfd, 
+		.4px -.4px 0 #dbccfd,
+		-.4px .4px 0 #dbccfd,
+		.4px .4px 0 #dbccfd;
+	font-size: 17px;
+	font-family: 'Playfair Display', serif;
+	margin-bottom: 7px;
+	margin-top: 35px;
+}
+
+.contactInfo{
+	color: rgb(144, 121, 198, .9);
+	font-size: 23px;
+	text-align: center;
+	font-family: 'header medium';
+	margin-top: 25px;
+}
+
+.contactInfo2{
+	color: rgb(144, 121, 198, .9);
+	font-size: 23px;
+	text-align: center;
+	font-family: 'header medium';
+}
+
+.formTop{
+	margin-top: 40px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.contactBox {
+	display: flex;
+	flex-direction: column;
+}
+
+.formTitle {
+	font-family: 'header';
+	color: rgb(55,30,113);
+	font-size: 17px;
+}
+
+.formTitleMessage {
+	font-family: 'header';
+	color: rgb(55,30,113);
+	margin-top: 20px;
+	font-size: 17px;
+}
+
+.input{
+	border: solid 1px rgb(55,30,113, .6);
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5px;
+	width: 200px;
+}
+
+.inputMessage{
+	border: solid 1px rgb(55,30,113, .6);
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5px;
+	height: 300px;
+	text-align: left;
+}
+
+.submitBox{
+	display: flex;
+	justify-content: center;
+}
+
+.sendButton{
+	color: white;
+	background-color: rgb(55,30,113);
+	border: solid 1px rgb(55,30,113, .6);
+	border-radius: 13px;
+	padding: 3px 30px;
+	font-size: 20px;
+	font-family: 'header medium';
+	margin-top: 20px;
+}
+
+.fullBackground {
+	position: absolute;
+    bottom: 6%;
+    right: 29.5%;
+    background-color: rgb(55,30,113);
+    color: white;
+    padding: 60px 20px;
+    width: 330px;
+    height: 200px;
+    text-align: center;
+    font-family: header;
+    font-size: 20px;
+    border: 1px solid rgb(144, 121, 198, .5);
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.thankYou{
+	color: rgb(55,30,113);
+	background-color: white;
+	padding: 5px;
+	border: .5px solid rgb(144, 121, 198, .5);
+	transition: text-decoration 1s;
+}
+
+.thankYou:hover {
+	text-decoration: underline;
+	color: rgb(55,30,113);
+}

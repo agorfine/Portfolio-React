@@ -12,6 +12,7 @@ nav {
 	text-decoration: none;
 	color: white;
 	font-size: 17px;
+	transition: text-decoration 1s;
 }
 
 .nameTitle {
@@ -26,14 +27,69 @@ nav {
     align-items: center;
 }
 
-.link {
-  transition: text-decoration 1s;
+.link:hover {
+	color: white;
+  	text-decoration: underline;
 }
 
-.link:hover {
-  text-decoration: underline;
-}
+@media screen and (max-width: 415px) {
+	nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 15px 12px;
+		font-family: 'header', sans-serif;
+		background-color: rgb(55,30,113);
+		color: white;
+		width: 100%;
+		align-items: center;
+	}
 
-.link:hover {
-  text-decoration: underline;
+	.link {
+		text-decoration: none;
+		color: white;
+		font-size: 10px;
+		transition: text-decoration 1s;
+	}
+
+	.nameTitle {
+		font-size: 20px;
+		text-align: center;
+	}
+
+	.routeLinks {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	    width: 75%;
+	}
+
+	.link:hover {
+	  text-decoration: underline;
+	}
+
+	.dropButton{
+		margin-right: 2%;
+	}
+
+	.dropToggle {
+		background-color: rgb(55,30,113) !important;
+		border-color: white !important;
+		border-radius: 30px !important;
+		font-size: 12px !important;
+	}
+
+	.dropDownMenu{
+		min-width: 5rem !important;
+		font-size: 20px !important;
+		left: -36% !important;
+		text-align: center !important;
+	}
+	.dropdown-item{
+		padding: .35rem 1rem !important;
+	}
+
+	a {
+		color: rgb(55,30,113) !important;
+	}
 }

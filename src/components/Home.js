@@ -6,7 +6,8 @@ function Home(props) {
 		<div>
 			<div className= 'home'>
 				<div className = "intro">Hi! My name is Amanda Gorfine, and I am a</div>
-				<div className = "jobTitle">Front-End Web Developer</div>
+				<div className = "jobTitle">Front-End</div>
+				<div className = "jobTitle2">Web Developer</div>
 				<div className = 'heroImage'></div>
 			{/*https://aaww.org/wp-content/uploads/2017/04/wallup-23584.jpg?w=640*/}
 			</div>

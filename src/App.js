@@ -7,6 +7,7 @@ import './css/footer.css'
 import './css/portfolio.css'
 import './css/aboutme.css'
 import './css/resume.css'
+import './css/contact.css'
 
 import Portfolio from './components/Portfolio';
 import Aboutme from './components/Aboutme';
