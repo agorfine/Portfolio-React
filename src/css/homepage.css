@@ -206,7 +206,7 @@
 
 }
 
-@media screen and (max-height: 701px) {
+@media screen and (max-height: 717px) {
 	.heroImage {
 	    background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542591399/lavender.jpg);
 	    background-size: 324%;
