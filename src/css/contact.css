@@ -17,7 +17,7 @@
 	font-size: 23px;
 	text-align: center;
 	font-family: 'header medium';
-	margin-top: 25px;
+	margin-top: 55px;
 }
 
 .contactInfo2{
@@ -114,3 +114,10 @@
 	text-decoration: underline;
 	color: rgb(55,30,113);
 }
+
+/*.contactLinkeContainerContactPage{
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 5px;
+}
+*/

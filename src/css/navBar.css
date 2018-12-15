@@ -32,7 +32,7 @@ nav {
   	text-decoration: underline;
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-height: 568px) {
 	nav {
 		display: flex;
 		flex-direction: row;
@@ -89,7 +89,115 @@ nav {
 		padding: .35rem 1rem !important;
 	}
 
-	a {
+	.smallLink {
+		color: rgb(55,30,113) !important;
+	}
+}
+
+@media screen and (max-height: 736px) {
+	nav {
+		padding: 17px 15px;
+	}
+
+	.link {
+		text-decoration: none;
+		color: white;
+		font-size: 10px;
+		transition: text-decoration 1s;
+	}
+
+	.nameTitle {
+		font-size: 25px;
+		text-align: center;
+	}
+
+	.routeLinks {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	    width: 75%;
+	}
+
+	.link:hover {
+	  text-decoration: underline;
+	}
+
+	.dropButton{
+		margin-right: 1%;
+	}
+
+	.dropToggle {
+		background-color: rgb(55,30,113) !important;
+		border-color: white !important;
+		border-radius: 30px !important;
+		font-size: 16px !important;
+	}
+
+	.dropDownMenu{
+		min-width: 5rem !important;
+		font-size: 20px !important;
+		left: -22% !important;
+		text-align: center !important;
+	}
+	.dropdown-item{
+		padding: .35rem 1rem !important;
+	}
+
+	.smallLink {
+		color: rgb(55,30,113) !important;
+	}
+}
+
+@media screen and (min-height: 812px) {
+	nav {
+		padding: 17px 15px;
+	}
+
+	.link {
+		text-decoration: none;
+		color: white;
+		font-size: 10px;
+		transition: text-decoration 1s;
+	}
+
+	.nameTitle {
+		font-size: 23px;
+		text-align: center;
+	}
+
+	.routeLinks {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	    width: 75%;
+	}
+
+	.link:hover {
+	  text-decoration: underline;
+	}
+
+	.dropButton{
+		margin-right: 1%;
+	}
+
+	.dropToggle {
+		background-color: rgb(55,30,113) !important;
+		border-color: white !important;
+		border-radius: 30px !important;
+		font-size: 15px !important;
+	}
+
+	.dropDownMenu{
+		min-width: 5rem !important;
+		font-size: 20px !important;
+		left: -25% !important;
+		text-align: center !important;
+	}
+	.dropdown-item{
+		padding: .35rem 1rem !important;
+	}
+
+	.smallLink {
 		color: rgb(55,30,113) !important;
 	}
 }

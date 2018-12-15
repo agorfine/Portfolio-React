@@ -1,16 +1,72 @@
 .footer {
 	text-align: center;
-    padding: 36px;
+    padding-top: 36px;
+    padding-bottom: 20px;
     color: rgb(55,30,113);
+    background-color: rgb(232,223,255, .5);
     font-size: 20px;
-/*	text-shadow:
-		-.5px -.5px 0 rgb(55,30,113),
-		.5px -.5px 0 rgb(55,30,113),
-		-.5px .5px 0 rgb(55,30,113),
-		.5px .5px 0 rgb(55,30,113);*/
 }
 
 .footerHead {
     height: 103px;
-    background-color: rgb(232,223,255, .5);
+}
+
+.contactLinkeContainer{
+	display: flex;
+	justify-content: center;
+	margin-top: 7px;
+}
+
+.contactLinkedin{
+	background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1544889342/icons8-linkedin-50_3.png);
+	background-size: 100%;
+    height: 40px;
+    width: 40px;
+    color: transparent;
+    transition: text-decoration 1s;
+    margin-right: 10px;
+}
+
+.contactGitHub{
+	background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542599403/icons8-github-100.png);
+	background-size: 100%;
+    height: 40px;
+    width: 40px;
+    color: transparent;
+    transition: text-decoration 1s;
+    margin-left: 10px;
+}
+
+.contactGitHub:hover{
+	text-decoration: none;
+	color: transparent;
+}
+
+.contactLinkedin:hover{
+	text-decoration: none;
+	color: transparent;
+}
+
+@media screen and (max-width: 415px) {
+	.footer {
+		text-align: center;
+	    padding-top: 30px;
+	    font-size: 16px;
+	}
+
+	.contactLinkeContainer{
+		margin-top: 7px;
+	}
+
+	.contactLinkedin{
+	    height: 35px;
+	    width: 35px;
+	    margin-right: 6px;
+	}
+
+	.contactGitHub{
+	    height: 35px;
+	    width: 35px;
+	    margin-left: 6px;
+	}
 }

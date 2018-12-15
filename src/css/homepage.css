@@ -189,38 +189,9 @@
 	margin-top: 7px;
 	color: rgb(55,30,113);
 	font-family: 'header';
-	font-weight: bold;
 }
 
 @media screen and (max-width: 415px) {
-	.home {
-		color: white;
-	}
-
-	.intro {
-		text-align: center;
-		margin-top: 236px;
-		font-size: 23px;
-		padding: 0 20px;
-		text-shadow:
-			-1px -1px 0 rgb(55,30,113),
-			1px -1px 0 rgb(55,30,113),
-			-1px 1px 0 rgb(55,30,113),
-			1px 1px 0 rgb(55,30,113);
-	}
-
-	.jobTitle {
-		text-align: center;
-		font-size: 47px;
-		margin-top: 2px;
-		font-family: 'Playfair Display', serif;
-		text-shadow:
-			-1px -1px 0 rgb(55,30,113),
-			1px -1px 0 rgb(55,30,113),
-			-1px 1px 0 rgb(55,30,113),
-			1px 1px 0 rgb(55,30,113);
-	}
-
 	.heroImage {
 	    background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542591399/lavender.jpg);
 	    height: 743px;
@@ -233,170 +204,11 @@
 	    opacity: .9;
 	}
 
-	.space {
-		background-color: rgb(232,223,255, .5);
-		margin-top: 289px;
-	}
-
-	.lavender {
-		height: 40px;
-	}
-
-	.portfolio {
-		text-align: center;
-		margin-top: 20px;
-		background-color: white;
-		border-radius: 5px;
-		width: 80%;
-		margin-right: auto;
-		margin-left: auto;
-		padding: 36px 30px;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-	}
-
-	.portfolioTitle {
-		font-size: 40px;
-		text-align: center;
-		margin-top: 10px;
-		color: rgb(55,30,113);
-		font-family: 'Playfair Display', serif;
-	}
-
-	.grid {
-		display: flex;
-		margin-top: 20px;
-		justify-content: center;
-		flex-wrap: wrap;
-	}
-
-	.project {
-		height: 200px;
-		width: 200px;
-		margin: 40px 30px;
-		margin-bottom: 10px;
-		text-decoration: none;
-		color: white;
-		border-radius: 5px;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-		transition: scale 1s;
-	}
-
-	.project:hover {
-	  transform: scale(1.05);
-	}
-
-	.projectTitle {
-		margin-top: 50%;
-		margin-bottom: 50%;
-		color: transparent;
-	/*	text-shadow:
-		-.5px -.5px 0 black,
-		.5px -.5px 0 black,
-		-.5px .5px 0 black,
-		.5px .5px 0 black;*/
-	}
-
-	.projectContainer{
-		display: flex;
-		flex-direction: column;
-		color: rgb(55,30,113);
-		font-family: 'header';
-		font-weight: bold;
-		font-size: 20px;
-	}
-
-	.project1 {
-		background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542481447/Screen_Shot_2018-11-17_at_1.56.16_PM.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
-	.project2 {
-		background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542481539/Screen_Shot_2018-11-17_at_1.56.54_PM.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center; 
-	}
-
-	.project3Home {
-		background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1544733479/Screen_Shot_2018-12-13_at_3.37.47_PM.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
-	.project4 {
-		background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542481645/Screen_Shot_2018-11-17_at_1.59.01_PM.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
-	.project5 {
-		background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542481182/Screen_Shot_2018-11-17_at_1.59.28_PM.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center; 
-	}
-
-	.skills {
-		text-align: center;
-		margin: 50px auto 0 auto;
-		background-color: white;
-		border-radius: 5px;
-		width: 80%;
-		padding: 36px 30px;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-	}
-
-	.skillsTitle {
-		font-size: 40px;
-		text-align: center;
-		margin-top: 20px;
-		color: rgb(55,30,113);
-		font-family: 'Playfair Display', serif;
-	}
-
-	.skill {
-		margin: 50px;
-	}
-
-	.icon {
-		width: 75px;
-		height: 75px;
-	}
-
-	.skillsIconTitle {
-		font-size: 20px;
-		margin-top: 7px;
-		color: rgb(55,30,113);
-		font-family: 'header';
-		font-weight: bold;
-	}
-}
-
-@media screen and (min-height: 812px) {
-	.heroImage {
-	    background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542591399/lavender.jpg);
-	    background-size: 321%;
-	    width: -webkit-fill-available;
-	    height: 812px;
-	}
-}
-
-
-@media screen and (max-height: 736px) {
-	.heroImage {
-	    background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542591399/lavender.jpg);
-	    background-size: 263%;
-	    width: -webkit-fill-available;
-	    height: 680px;
-	}
 }
 
 @media screen and (max-height: 568px) {
 	.heroImage {
-	    background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542591399/lavender.jpg);
 	    background-size: 267%;
-	    width: -webkit-fill-available;
 	    height: 512px;
 	}
 	.intro {
@@ -404,36 +216,20 @@
 		margin-top: 190px;
 		font-size: 23px;
 		padding: 0 20px;
-		text-shadow:
-			-1px -1px 0 rgb(55,30,113),
-			1px -1px 0 rgb(55,30,113),
-			-1px 1px 0 rgb(55,30,113),
-			1px 1px 0 rgb(55,30,113);
 	}
 	.jobTitle {
 		text-align: center;
 		font-size: 40px;
 		margin-top: 2px;
 		font-family: 'Playfair Display', serif;
-		text-shadow:
-			-1px -1px 0 rgb(55,30,113),
-			1px -1px 0 rgb(55,30,113),
-			-1px 1px 0 rgb(55,30,113),
-			1px 1px 0 rgb(55,30,113);
 	}
 	.jobTitle2 {
 		text-align: center;
 		font-size: 40px;
 		margin-top: -10px;
 		font-family: 'Playfair Display', serif;
-		text-shadow:
-			-1px -1px 0 rgb(55,30,113),
-			1px -1px 0 rgb(55,30,113),
-			-1px 1px 0 rgb(55,30,113),
-			1px 1px 0 rgb(55,30,113);
 	}
 	.space {
-		background-color: rgb(232,223,255, .5);
 		margin-top: 135px;
 	}
 
@@ -441,22 +237,19 @@
 		height: 11px;
 	}
 
-	.portfolio {
+	.portfolio, .skills {
 		text-align: center;
 		margin-top: 20px;
 		background-color: white;
 		border-radius: 5px;
 		width: 90%;
 		padding: 5px 5px;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 	}
 
-	.portfolioTitle {
+	.portfolioTitle, .skillsTitle {
 		font-size: 30px;
 		text-align: center;
 		margin-top: 10px;
-		color: rgb(55,30,113);
-		font-family: 'Playfair Display', serif;
 	}
 
 	.grid {
@@ -474,12 +267,6 @@
 		text-decoration: none;
 		color: white;
 		border-radius: 5px;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-		transition: scale 1s;
-	}
-
-	.project:hover {
-	  transform: scale(1.05);
 	}
 
 	.projectTitle {
@@ -493,80 +280,205 @@
 	}
 
 	.projectContainer{
-		display: flex;
-		flex-direction: column;
-		color: rgb(55,30,113);
-		font-family: 'header';
-		font-weight: bold;
 		font-size: 15px;
 		align-items: center;
 		margin: 10px 20px;
 	}
 
-	.project1 {
-		background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542481447/Screen_Shot_2018-11-17_at_1.56.16_PM.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
-	.project2 {
-		background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542481539/Screen_Shot_2018-11-17_at_1.56.54_PM.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center; 
-	}
-
-	.project3Home {
-		background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1544733479/Screen_Shot_2018-12-13_at_3.37.47_PM.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
-	.project4 {
-		background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542481645/Screen_Shot_2018-11-17_at_1.59.01_PM.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-	}
-
-	.project5 {
-		background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542481182/Screen_Shot_2018-11-17_at_1.59.28_PM.png);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center; 
-	}
-
-	.skills {
-		text-align: center;
-		margin: 50px auto 0 auto;
-		background-color: white;
-		border-radius: 5px;
-		width: 80%;
-		padding: 36px 30px;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
-	}
-
-	.skillsTitle {
-		font-size: 40px;
-		text-align: center;
-		margin-top: 20px;
-		color: rgb(55,30,113);
-		font-family: 'Playfair Display', serif;
-	}
-
 	.skill {
-		margin: 50px;
+		margin: 11px;
 	}
 
 	.icon {
-		width: 75px;
-		height: 75px;
+		width: 43px;
+		height: 43px;
 	}
 
 	.skillsIconTitle {
-		font-size: 20px;
-		margin-top: 7px;
-		color: rgb(55,30,113);
-		font-family: 'header';
-		font-weight: bold;
+		font-size: 14px;
 	}
 }
+
+@media screen and (max-height: 736px) {
+	.heroImage {
+	    background-size: 263%;
+	    height: 680px;
+	}
+
+	.intro {
+		margin-top: 260px;
+		font-size: 25px;
+		padding: 0 20px;
+	}
+	.jobTitle {
+		font-size: 42px;
+		margin-top: 16px;
+	}
+	.jobTitle2 {
+		font-size: 42px;
+		margin-top: -10px;
+	}
+	.space {
+		margin-top: 197px;
+	}
+
+	.lavender {
+		height: 11px;
+	}
+
+	.portfolio, .skills {
+		text-align: center;
+		margin-top: 20px;
+		background-color: white;
+		border-radius: 5px;
+		width: 90%;
+		padding: 5px 5px;
+	}
+
+	.portfolioTitle, .skillsTitle {
+		font-size: 38px;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.grid {
+		display: flex;
+		margin-top: 20px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.project {
+		height: 130px;
+		width: 130px;
+		margin: 5px;
+		margin-bottom: 10px;
+		text-decoration: none;
+		color: white;
+		border-radius: 5px;
+	}
+
+	.projectTitle {
+		margin-top: 50%;
+		margin-bottom: 50%;
+		color: transparent;
+	}
+	.projectTitleShown{
+		width: 130px;
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.projectContainer{
+		font-size: 15px;
+		align-items: center;
+		margin: 10px 20px;
+	}
+
+	.skill {
+		margin: 17px;
+	}
+
+	.icon {
+		width: 70px;
+		height: 70px;
+	}
+
+	.skillsIconTitle {
+		font-size: 17px;
+	}
+}
+
+@media screen and (min-height: 812px) {
+	.heroImage {
+	    background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542591399/lavender.jpg);
+	    background-size: 324%;
+	    width: -webkit-fill-available;
+	    height: 812px;
+	}
+
+	.intro {
+		margin-top: 285px;
+		font-size: 25px;
+		padding: 0 20px;
+	}
+	.jobTitle {
+		font-size: 45px;
+		margin-top: 16px;
+	}
+	.jobTitle2 {
+		font-size: 45px;
+		margin-top: -10px;
+	}
+	.space {
+		margin-top: 246px;
+	}
+
+	.lavender {
+		height: 11px;
+	}
+
+	.portfolio, .skills {
+		text-align: center;
+		margin-top: 20px;
+		background-color: white;
+		border-radius: 5px;
+		width: 93%;
+		padding: 5px 5px;
+	}
+
+	.portfolioTitle, .skillsTitle {
+		font-size: 37px;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.grid {
+		display: flex;
+		margin-top: 20px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.project {
+		height: 115px;
+		width: 115px;
+		margin: 5px;
+		margin-bottom: 10px;
+		text-decoration: none;
+		color: white;
+		border-radius: 5px;
+	}
+
+	.projectTitle {
+		margin-top: 50%;
+		margin-bottom: 50%;
+		color: transparent;
+	}
+	.projectTitleShown{
+		width: 100px;
+		text-align: center;
+		font-size: 17.5px;
+	}
+
+	.projectContainer{
+		font-size: 15px;
+		align-items: center;
+		margin: 10px 20px;
+	}
+
+	.skill {
+		margin: 17px;
+	}
+
+	.icon {
+		width: 67px;
+		height: 67px;
+	}
+
+	.skillsIconTitle {
+		font-size: 17px;
+	}
+}
+
+

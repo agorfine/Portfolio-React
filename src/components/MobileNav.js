@@ -29,15 +29,15 @@ class MobileNav extends Component {
 				          MENU
 				        </DropdownToggle>
 				        <DropdownMenu className='dropDownMenu'>
-				          <DropdownItem><Link to="/">HOME</Link></DropdownItem>
+				          <DropdownItem><Link to="/" className='smallLink'>HOME</Link></DropdownItem>
 				          <DropdownItem divider />
-				          <DropdownItem><Link to="/Portfolio">PORTFOLIO</Link></DropdownItem>
+				          <DropdownItem><Link to="/Portfolio" className='smallLink'>PORTFOLIO</Link></DropdownItem>
 				          <DropdownItem divider />
-				          <DropdownItem><Link to="/Aboutme">ABOUT</Link></DropdownItem>
+				          <DropdownItem><Link to="/Aboutme" className='smallLink'>ABOUT</Link></DropdownItem>
 				          <DropdownItem divider />
-				          <DropdownItem><Link to="/Resume">RESUME</Link></DropdownItem>
+				          <DropdownItem><Link to="/Resume" className='smallLink'>RESUME</Link></DropdownItem>
 				          <DropdownItem divider />
-				          <DropdownItem><Link to="/Contact">CONTACT</Link></DropdownItem>
+				          <DropdownItem><Link to="/Contact" className='smallLink'>CONTACT</Link></DropdownItem>
 				        </DropdownMenu>
 				      </ButtonDropdown>	
 				</nav>

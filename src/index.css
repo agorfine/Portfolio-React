@@ -42,38 +42,3 @@ code {
 .scroll {
 	overflow: scroll;
 }
-
-/*.portfolioName {
-	text-align: center;
-	font-weight: bold;
-	margin-top: 35px;
-	margin-bottom: 20px;
-	font-size: 26px;
-
-}
-
-.portfolioHomePage {
-	width: 100%;
-}
-
-.topRow {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin-top: 35px;
-}
-
-.bottomRow {
-	display: flex;
-	flex-direction: row;
-	justify-content: space-evenly;
-	margin-top: 30px;
-}
-
-.portfolioRoute {
-	border: 1px black solid;
-	border-radius: 10px;
-	height: 220px;
-    width: 24%;
-	justify-content: space-between;
-}*/
