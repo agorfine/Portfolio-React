@@ -90,4 +90,12 @@
 	color: white;
 	background-color: rgb(55,30,113);
 	border-radius: 20px;
+	transition: text-decoration 1s;
 }
+
+.gitLink:hover{
+	text-decoration: underline;
+	color: white;
+
+}
+
