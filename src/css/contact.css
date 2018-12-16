@@ -145,7 +145,7 @@
 @media screen and (min-width: 320px){
 	.fullBackground {
 		position: absolute;
-	    bottom: 21%;
+	    bottom: 20%;
 	    right: 14.5%;
 	    background-color: rgb(55,30,113);
 	    color: white;

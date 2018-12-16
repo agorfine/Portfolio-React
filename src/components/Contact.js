@@ -114,7 +114,7 @@ class Contact extends Component {
 				          <div className= 'fullBackground'>
 				            <div className= 'customAlert'>
 				                 <span><p> Email Sent Successfully!</p></span>
-				                  <Link to='/Contact' className ='thankYou' onClick = 'window.location.reload()'> Thank You </Link>
+				                  <Link to='/' className ='thankYou' onClick = 'window.location.reload()'> Thank You </Link>
 				             </div>
 				           </div>
 				          : ''}
