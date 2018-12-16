@@ -202,7 +202,7 @@ nav {
 	}
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 820px) {
 	nav {
 		padding: 17px 15px;
 	}
