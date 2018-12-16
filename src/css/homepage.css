@@ -318,16 +318,25 @@
 		margin-top: -10px;
 	}
 	.space {
-		margin-top: 246px;
+		margin-top: 252px;
 	}
 
 	.lavender {
 		height: 11px;
 	}
 
-	.portfolio, .skills {
+	.portfolio {
 		text-align: center;
 		margin-top: 20px;
+		background-color: white;
+		border-radius: 5px;
+		width: 93%;
+		padding: 5px 5px;
+	}
+
+	.skills {
+		text-align: center;
+		margin-top: 35px;
 		background-color: white;
 		border-radius: 5px;
 		width: 93%;
