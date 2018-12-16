@@ -19,32 +19,40 @@ class Contact extends Component {
 	    }))
   	}
 
+  // 	handleClick(e) {
+  // 		e.stopPropagation()
+  // 		console.log('inside click')
+
+  // 		let template_params = {
+		//    "reply_to": `${this.state.email}`,
+		//    "from_name": `${this.state.firstName} ${this.state.lastName} ${this.state.email}`,
+		//    "to_name": `Amanda`,
+		//    "message_html": `${this.state.message}`
+		// }
+
+		// let service_id = "default_service";
+		// let template_id = "template_3YPduXZv";
+		// let userID= "user_zE1UrerM0adcYyjQMV3Tg"
+		
+		// emailjs.send(service_id,template_id,template_params, userID)
+		// .then(response => {
+	 //       console.log('SUCCESS!', response.status, response.text);
+	 //       if (response.status === 200) {
+		//        	this.setState(prevState=>({
+		//         fireEmailSent: true,
+		//       }))
+		//    }
+	 //    }, function(error) {
+	 //       console.log('FAILED...', error);
+	 //    });
+  // 	}
+
   	handleClick(e) {
   		e.stopPropagation()
   		console.log('inside click')
-
-  		let template_params = {
-		   "reply_to": `${this.state.email}`,
-		   "from_name": `${this.state.firstName} ${this.state.lastName} ${this.state.email}`,
-		   "to_name": `Amanda`,
-		   "message_html": `${this.state.message}`
-		}
-
-		let service_id = "default_service";
-		let template_id = "template_3YPduXZv";
-		let userID= "user_zE1UrerM0adcYyjQMV3Tg"
-		
-		emailjs.send(service_id,template_id,template_params, userID)
-		.then(response => {
-	       console.log('SUCCESS!', response.status, response.text);
-	       if (response.status === 200) {
-		       	this.setState(prevState=>({
-		        fireEmailSent: true,
-		      }))
-		   }
-	    }, function(error) {
-	       console.log('FAILED...', error);
-	    });
+  		this.setState(prevState=>({
+		    fireEmailSent: true,
+		}))
   	}
 
 	render () {
@@ -107,13 +115,13 @@ class Contact extends Component {
 						</div>
 					</form>
 					<div className='submitBox'>
+						<input className='sendButton' type="submit" value="SEND" />
 						<input className='sendButton' type="submit" value="SEND" onClick = {(e) => this.handleClick(e)}/>
-						
 						{this.state.fireEmailSent
 				          ?
 				          <div className= 'fullBackground'>
 				            <div className= 'customAlert'>
-				                 <span><p> Email Sent Successfully!</p></span>
+				                 <span><p className='sent'> Email Sent Successfully!</p></span>
 				                  <Link to='/' className ='thankYou' onClick = 'window.location.reload()'> Thank You </Link>
 				             </div>
 				           </div>
