@@ -250,6 +250,12 @@
 	}
 }
 
+@media screen and (min-width: 414px) {
+	.doublePictureContainer {
+    	width: 80%;
+	}
+}
+
 @media screen and (min-width: 500px) {
 	.background {
 		background-color: rgb(232,223,255, .5);

@@ -13,7 +13,6 @@ function Aboutme (props) {
 						<div className='aboutMeTitle'>A Little About Me . . .</div>
 						<div className = 'aboutmeInfo'>I am a resourceful, passionate, and effervescent Front-End Web Developer with five years experience in the Hospitality Industry. I integrate customer service with clean code to create visually appealing user-friendly websites and mobile applications. I focus on mobile responsive designs to make every website available in a smartphone driven world.</div>
 						<br></br>
-						<br></br>
 						<div className='aboutMeTitle'>My Hobbies Include . . .</div>
 						<div className = 'aboutmeInfo'>I enjoy exercising, spending time with friends & family, photography, and coding!</div>
 					</div>
@@ -26,5 +25,3 @@ function Aboutme (props) {
 
 export default Aboutme;
 
-// <div className = 'aboutmeInfo'>I am an effervescent, resourceful, and passionate Front End Web Developer with five years experience in the Hospitality Industry. I integrate customer service with clean code to create visually appealing and user-friendly websites. I focus on mobile responsive designs to make every website available in a smartphone driven world</div>
-// <br></br>

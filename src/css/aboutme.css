@@ -1,38 +1,110 @@
-.aboutmeContainer {
-	margin-top: 40px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+@media screen and (min-width: 320px) {
+	.aboutmeContainer {
+		margin-top: 10px;
+		margin-bottom: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+
+	.picMe {
+		margin-top: 10px;
+		margin-right: auto;
+		margin-left: auto;
+		height: 200px;
+		width: 200px;
+		border-radius: 100px;
+	}
+
+	.aboutmeText {
+		width: 90%;
+		margin: 30px auto 10px auto;
+		text-align: center;
+	}
+
+	.aboutmeInfo {
+		color: rgb(144, 121, 198, .9);
+		font-size: 15px;
+		font-family: 'header medium';
+		width: 90%;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+
+	.aboutMeTitle {
+		text-align: left;
+		color: rgb(55,30,113);
+		text-shadow:
+			-.4px -.4px 0 #dbccfd, 
+			.4px -.4px 0 #dbccfd,
+			-.4px .4px 0 #dbccfd,
+			.4px .4px 0 #dbccfd;
+		font-size: 15px;
+		font-family: 'Playfair Display', serif;
+		margin-bottom: 7px;
+	}
 }
 
-.picMe {
-	height: 400px;
-	width: 400px;
-	border-radius: 200px;
+@media screen and (min-width: 375px) {
+	.picMe {
+		margin-top: 17px;
+		height: 250px;
+		width: 250px;
+		border-radius: 125px;
+	}
+
+	.aboutmeText {
+		width: 90%;
+		margin-top: 37px;
+	}
+
+	.aboutmeInfo {
+		font-size: 18px;
+	}
+
+	.aboutMeTitle {
+		font-size: 18px;
+		margin-bottom: 7px;
+	}
 }
 
-.aboutmeText {
-	width: 430px;
-	margin-top: auto;
-	margin-bottom: auto;
-	text-align: center;
-}
+@media screen and (min-width: 500px) {
+	.aboutmeContainer {
+		margin-top: 40px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
 
-.aboutmeInfo {
-	color: rgb(144, 121, 198, .9);
-	font-size: 20px;
-	font-family: 'header medium';
-}
+	.picMe {
+		height: 400px;
+		width: 400px;
+		border-radius: 200px;
+	}
 
-.aboutMeTitle {
-	text-align: left;
-	color: rgb(55,30,113);
-	text-shadow:
-		-.4px -.4px 0 #dbccfd, 
-		.4px -.4px 0 #dbccfd,
-		-.4px .4px 0 #dbccfd,
-		.4px .4px 0 #dbccfd;
-	font-size: 15px;
-	font-family: 'Playfair Display', serif;
-	margin-bottom: 7px;
+	.aboutmeText {
+		width: 430px;
+		margin-top: auto;
+		margin-bottom: auto;
+		text-align: center;
+	}
+
+	.aboutmeInfo {
+		color: rgb(144, 121, 198, .9);
+		font-size: 20px;
+		font-family: 'header medium';
+	}
+
+	.aboutMeTitle {
+		text-align: left;
+		color: rgb(55,30,113);
+		text-shadow:
+			-.4px -.4px 0 #dbccfd, 
+			.4px -.4px 0 #dbccfd,
+			-.4px .4px 0 #dbccfd,
+			.4px .4px 0 #dbccfd;
+		font-size: 15px;
+		font-family: 'Playfair Display', serif;
+		margin-bottom: 7px;
+	}
 }
