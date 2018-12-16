@@ -10,7 +10,7 @@ class NavBar extends Component {
 	render() {
 		return(
 			<div>
-				<MediaQuery query="(min-device-width: 850px)">
+				<MediaQuery query="(min-device-width: 501px)">
 					<nav>
 						<div className="nameTitle">AMANDA GORFINE</div>
 						<div className= "routeLinks">

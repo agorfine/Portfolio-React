@@ -24,6 +24,7 @@
 	flex-direction: row;
 	justify-content: space-between;
 	margin-top: 40px;
+	align-items: center;
 }
 
 .portfolioProject {
@@ -96,6 +97,160 @@
 .gitLink:hover{
 	text-decoration: underline;
 	color: white;
+
+}
+
+@media screen and (min-width: 320px) {
+	.background {
+		padding-top: 14px;
+	}
+
+	.portfolioInfo {
+		width: 90%;
+		margin-top: 10px;
+		padding: 5px;
+	}
+
+	.portfolioPageTitle {
+		font-size: 30px;
+		margin-top: 10px;
+	}
+
+	.portfolioProject1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 20px;
+	}
+
+	.portfolioProject {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-top: 45px;
+		align-items: center;
+	}
+
+	.projectPic {
+		height: 150px;
+		width: 200px;
+	}
+
+	.projectDescription {
+		width: 90%;
+	}
+
+	.project3 {
+		width: 100px;
+		height: 200px;
+	}
+
+	.projectDisneyDates {
+		width: 100px;
+		height: 200px;
+	}
+
+	.doublePictureContainer{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 90%;
+	}
+
+	.projectTitles {
+		margin-top: 18px;
+		font-size: 15px;
+	}
+
+	.projectInformation {
+		margin-Top: 15px;
+		margin-bottom: 15px;
+		font-size: 13px;
+	}
+
+	.linkBox {
+		margin-top: 20px;
+	}
+
+	.gitLink {
+	    margin-top: 10px;
+	    padding: 8px 15px;
+	    color: white;
+	    font-size: 13px;
+	}
+
+	.gitLink:hover{
+		text-decoration: underline;
+		color: white;
+
+	}
+
+	.linkBoxLast {
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+
+}
+
+@media screen and (min-width: 375px) {
+	.portfolioPageTitle {
+		font-size: 37px;
+	}
+
+	.portfolioProject1 {
+		margin-top: 30px;
+	}
+
+	.portfolioProject {
+		margin-top: 60px;
+	}
+
+	.projectPic {
+		height: 200px;
+		width: 250px;
+	}
+
+	.projectDescription {
+		width: 90%;
+	}
+
+	.project3, .projectDisneyDates {
+		width: 125px;
+		height: 220px;
+	}
+
+	.doublePictureContainer{
+		width: 86%;
+	}
+
+	.projectTitles {
+		margin-top: 26px;
+		font-size: 18px;
+	}
+
+	.projectInformation {
+		margin-Top: 15px;
+		margin-bottom: 15px;
+		font-size: 16px;
+	}
+
+	.linkBox {
+		margin-top: 25px;
+	}
+
+	.gitLink {
+	    padding: 10px 17px;
+	    font-size: 16px;
+	}
+	
+	.linkBoxLast {
+		margin-top: 25px;
+		margin-bottom: 30px;
+	}
+}
+
+@media screen and (min-width: 414px) {
 
 }
 
