@@ -1,123 +1,297 @@
-.contactTitle{
-	text-align: left;
-	color: rgb(55,30,113);
-	text-shadow:
-		-.4px -.4px 0 #dbccfd, 
-		.4px -.4px 0 #dbccfd,
-		-.4px .4px 0 #dbccfd,
-		.4px .4px 0 #dbccfd;
-	font-size: 17px;
-	font-family: 'Playfair Display', serif;
-	margin-bottom: 7px;
-	margin-top: 35px;
+@media screen and (min-width: 320px){
+	.contactTitle{
+		text-align: left;
+		color: rgb(55,30,113);
+		text-shadow:
+			-.4px -.4px 0 #dbccfd, 
+			.4px -.4px 0 #dbccfd,
+			-.4px .4px 0 #dbccfd,
+			.4px .4px 0 #dbccfd;
+		font-size: 17px;
+		font-family: 'Playfair Display', serif;
+		margin-bottom: 7px;
+		margin-top: 35px;
+	}
+
+	.contactInfo{
+		color: rgb(144, 121, 198, .9);
+		font-size: 19px;
+		text-align: center;
+		font-family: 'header medium';
+		margin-top: 22px;
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.contactInfo2{
+		color: rgb(144, 121, 198, .9);
+		font-size: 19px;
+		text-align: center;
+		font-family: 'header medium';
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.formTop{
+		margin-top: 40px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-left: 17px;
+	}
+
+	.contactBox {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.form{
+		margin-top: -20px;
+	}
+
+	.formTitle {
+		font-family: 'header';
+		color: rgb(55,30,113);
+		font-size: 15px;
+		margin-top: 5px;
+	}
+
+	.formTitleMessage {
+		font-family: 'header';
+		color: rgb(55,30,113);
+		margin-top: 20px;
+		font-size: 15px;
+		margin-left: 17px;
+	}
+
+	.input{
+		border: solid 1px rgb(55,30,113, .6);
+		border-radius: 10px;
+		padding: 2px 3px;
+		margin-top: 2px;
+		width: 83%;
+	}
+
+	.inputMessage{
+		border: solid 1px rgb(55,30,113, .6);
+		border-radius: 10px;
+		padding: 5px;
+		margin-top: 5px;
+		height: 200px;
+		text-align: left;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.submitBox{
+		display: flex;
+		justify-content: center;
+	}
+
+	.sendButton{
+		color: white;
+		background-color: rgb(55,30,113);
+		border: solid 1px rgb(55,30,113, .6);
+		border-radius: 13px;
+		padding: 3px 30px;
+		font-size: 20px;
+		font-family: 'header medium';
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.fullBackground {
+		position: absolute;
+	    bottom: -16%;
+	    right: 14.5%;
+	    background-color: rgb(55,30,113);
+	    color: white;
+	    padding: 30px 10px;
+	    width: 71%;
+	    height: 24%;
+	    text-align: center;
+	    font-family: header;
+	    font-size: 16px;
+	    border: 1px solid rgb(144, 121, 198, .5);
+	    border-radius: 20px;
+	    z-index: 2;
+	}
+
+	.thankYou{
+		color: rgb(55,30,113);
+		background-color: white;
+		padding: 5px;
+		border: .5px solid rgb(144, 121, 198, .5);
+		transition: text-decoration 1s;
+	}
+
+	.thankYou:hover {
+		text-decoration: underline;
+		color: rgb(55,30,113);
+	}
+
+	.input{
+		border: solid 1px rgb(55,30,113, .6);
+		border-radius: 10px;
+		padding: 3px 3px;
+		margin-top: 2px;
+		width: 83%;
+	}
 }
 
-.contactInfo{
-	color: rgb(144, 121, 198, .9);
-	font-size: 23px;
-	text-align: center;
-	font-family: 'header medium';
-	margin-top: 55px;
+@media screen and (min-width: 320px){
+	.fullBackground {
+		position: absolute;
+	    bottom: 21%;
+	    right: 14.5%;
+	    background-color: rgb(55,30,113);
+	    color: white;
+	    padding: 30px 10px;
+	    width: 71%;
+	    height: 18%;
+	    text-align: center;
+	    font-family: header;
+	    font-size: 19px;
+	    border: 1px solid rgb(144, 121, 198, .5);
+	    border-radius: 20px;
+	    z-index: 2;
+	}
+
+	.formTitle {
+		font-family: 'header';
+		color: rgb(55,30,113);
+		font-size: 16px;
+		margin-top: 5px;
+	}
+
+	.formTitleMessage {
+		font-family: 'header';
+		color: rgb(55,30,113);
+		margin-top: 20px;
+		font-size: 16px;
+		margin-left: 17px;
+	}
 }
 
-.contactInfo2{
-	color: rgb(144, 121, 198, .9);
-	font-size: 23px;
-	text-align: center;
-	font-family: 'header medium';
+@media screen and (min-width: 500px){
+	.contactTitle{
+		text-align: left;
+		color: rgb(55,30,113);
+		text-shadow:
+			-.4px -.4px 0 #dbccfd, 
+			.4px -.4px 0 #dbccfd,
+			-.4px .4px 0 #dbccfd,
+			.4px .4px 0 #dbccfd;
+		font-size: 17px;
+		font-family: 'Playfair Display', serif;
+		margin-bottom: 7px;
+		margin-top: 35px;
+	}
+
+	.contactInfo{
+		color: rgb(144, 121, 198, .9);
+		font-size: 23px;
+		text-align: center;
+		font-family: 'header medium';
+		margin-top: 55px;
+	}
+
+	.contactInfo2{
+		color: rgb(144, 121, 198, .9);
+		font-size: 23px;
+		text-align: center;
+		font-family: 'header medium';
+	}
+
+	.formTop{
+		margin-top: 40px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.contactBox {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.formTitle {
+		font-family: 'header';
+		color: rgb(55,30,113);
+		font-size: 17px;
+	}
+
+	.formTitleMessage {
+		font-family: 'header';
+		color: rgb(55,30,113);
+		margin-top: 20px;
+		font-size: 17px;
+	}
+
+	.input{
+		border: solid 1px rgb(55,30,113, .6);
+		border-radius: 10px;
+		padding: 5px;
+		margin-top: 5px;
+		width: 200px;
+	}
+
+	.inputMessage{
+		border: solid 1px rgb(55,30,113, .6);
+		border-radius: 10px;
+		padding: 5px;
+		margin-top: 5px;
+		height: 300px;
+		text-align: left;
+	}
+
+	.submitBox{
+		display: flex;
+		justify-content: center;
+	}
+
+	.sendButton{
+		color: white;
+		background-color: rgb(55,30,113);
+		border: solid 1px rgb(55,30,113, .6);
+		border-radius: 13px;
+		padding: 3px 30px;
+		font-size: 20px;
+		font-family: 'header medium';
+		margin-top: 20px;
+	}
+
+	.fullBackground {
+		position: absolute;
+	    bottom: 6%;
+	    right: 29.5%;
+	    background-color: rgb(55,30,113);
+	    color: white;
+	    padding: 60px 20px;
+	    width: 330px;
+	    height: 200px;
+	    text-align: center;
+	    font-family: header;
+	    font-size: 20px;
+	    border: 1px solid rgb(144, 121, 198, .5);
+	    border-radius: 20px;
+	    z-index: 2;
+	}
+
+	.thankYou{
+		color: rgb(55,30,113);
+		background-color: white;
+		padding: 5px;
+		border: .5px solid rgb(144, 121, 198, .5);
+		transition: text-decoration 1s;
+	}
+
+	.thankYou:hover {
+		text-decoration: underline;
+		color: rgb(55,30,113);
+	}
 }
 
-.formTop{
-	margin-top: 40px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.contactBox {
-	display: flex;
-	flex-direction: column;
-}
-
-.formTitle {
-	font-family: 'header';
-	color: rgb(55,30,113);
-	font-size: 17px;
-}
-
-.formTitleMessage {
-	font-family: 'header';
-	color: rgb(55,30,113);
-	margin-top: 20px;
-	font-size: 17px;
-}
-
-.input{
-	border: solid 1px rgb(55,30,113, .6);
-	border-radius: 10px;
-	padding: 5px;
-	margin-top: 5px;
-	width: 200px;
-}
-
-.inputMessage{
-	border: solid 1px rgb(55,30,113, .6);
-	border-radius: 10px;
-	padding: 5px;
-	margin-top: 5px;
-	height: 300px;
-	text-align: left;
-}
-
-.submitBox{
-	display: flex;
-	justify-content: center;
-}
-
-.sendButton{
-	color: white;
-	background-color: rgb(55,30,113);
-	border: solid 1px rgb(55,30,113, .6);
-	border-radius: 13px;
-	padding: 3px 30px;
-	font-size: 20px;
-	font-family: 'header medium';
-	margin-top: 20px;
-}
-
-.fullBackground {
-	position: absolute;
-    bottom: 6%;
-    right: 29.5%;
-    background-color: rgb(55,30,113);
-    color: white;
-    padding: 60px 20px;
-    width: 330px;
-    height: 200px;
-    text-align: center;
-    font-family: header;
-    font-size: 20px;
-    border: 1px solid rgb(144, 121, 198, .5);
-    border-radius: 20px;
-    z-index: 2;
-}
-
-.thankYou{
-	color: rgb(55,30,113);
-	background-color: white;
-	padding: 5px;
-	border: .5px solid rgb(144, 121, 198, .5);
-	transition: text-decoration 1s;
-}
-
-.thankYou:hover {
-	text-decoration: underline;
-	color: rgb(55,30,113);
-}
-
-/*.contactLinkeContainerContactPage{
-	display: flex;
-	justify-content: flex-start;
-	margin-top: 5px;
-}
-*/

@@ -55,8 +55,8 @@ class Contact extends Component {
 					<div className= 'portfolioPageTitle' >CONTACT ME</div>
 				
 					<div className= 'contactInfo'>Thank you for taking the time to reach out.</div>
-					<div className= 'contactInfo2'>How can I help you today?</div>
-					<form>
+					<div className= 'contactInfo2'>How may I help you today?</div>
+					<form className='form'>
 						<div className='formTop'>
 							<div className='contactBox'>
 							<div className='formTitle'>First Name</div>
