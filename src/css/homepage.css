@@ -494,7 +494,7 @@
 
 	.intro {
 		text-align: center;
-		margin-top: 315px;
+		margin-top: 264px;
 		font-size: 27px;
 		text-shadow:
 			-1px -1px 0 rgb(55,30,113),
@@ -528,7 +528,7 @@
 
 	.heroImage {
 	    background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1542591399/lavender.jpg);
-	    height: 743px;
+	    height: 663px;
 	    width: -webkit-fill-available;
 	    z-index: -1;
 	    position: absolute;
@@ -539,7 +539,7 @@
 
 	.space {
 		background-color: rgb(232,223,255, .5);
-		margin-top: 183px;
+		margin-top: 153px;
 	}
 
 	.lavender {
