@@ -64,6 +64,10 @@ function Home(props) {
 							<div className= "skillsIconTitle">JavaScript</div>
 						</div>
 						<div className= 'skill'>
+							<img className= "icon" src="https://res.cloudinary.com/drsaojfyp/image/upload/v1545419614/icons8-python-500.png" alt=""/>
+							<div className= "skillsIconTitle">Python</div>
+						</div>
+						<div className= 'skill'>
 							<img className= "icon" src="https://res.cloudinary.com/drsaojfyp/image/upload/v1542599673/icons8-react-native-100.png" alt=""/>
 							<div className= "skillsIconTitle">React</div>
 						</div>
