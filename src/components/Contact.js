@@ -11,6 +11,10 @@ class Contact extends Component {
 		fireEmailSent: false
 	}
 
+	componentDidMount() {
+	  window.scrollTo(0, 0)
+	}
+
 	handleInputChange(e){
 	    const name = e.target.name
 	    const value = e.target.value
@@ -127,3 +131,28 @@ class Contact extends Component {
 }
 
 export default Contact;
+
+
+
+// if (this.state.firstName === '' && this.state.lastName === '' && this.state.email === '' && this.state.message === '') {
+// 			return(
+// 				<div className= 'fullBackground'>
+// 	            	<div className= 'customAlert'>
+// 	                 	<span><p className='sent'> All Fields Required</p></span>
+// 	                 	<Link to='/' className ='thankYou' onClick = 'window.location.reload()'> Thank You </Link>
+// 	             	</div>
+// 	           </div>
+//            )
+// 		} else {
+// 			emailjs.send(service_id,template_id,template_params, userID)
+// 			.then(response => {
+// 		       console.log('SUCCESS!', response.status, response.text);
+// 		       if (response.status === 200) {
+// 			       	this.setState(prevState=>({
+// 			        fireEmailSent: true,
+// 			      }))
+// 			   }
+// 		    }, function(error) {
+// 		       console.log('FAILED...', error);
+// 		    });
+// 		}
