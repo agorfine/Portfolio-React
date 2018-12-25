@@ -8,7 +8,8 @@ class Contact extends Component {
 		lastName: '',
 		email: '',
 		message: '',
-		fireEmailSent: false
+		fireEmailSent: false,
+		fireEmailNotSent: false
 	}
 
 	componentDidMount() {
@@ -26,30 +27,37 @@ class Contact extends Component {
   	handleClick(e) {
   		e.stopPropagation()
   		console.log('inside click')
+  		if (this.state.firstName === '' || this.state.lastName === '' || this.state.email === '' || this.state.message === '') {
+			console.log('fields not filled')
+			this.setState(prevState=>({
+			    fireEmailNotSent: true,
+			}))
+		} else {
+	  		let template_params = {
+			   "reply_to": `${this.state.email}`,
+			   "from_name": `${this.state.firstName} ${this.state.lastName} ${this.state.email}`,
+			   "to_name": `Amanda`,
+			   "message_html": `${this.state.message}`
+			}
 
-  		let template_params = {
-		   "reply_to": `${this.state.email}`,
-		   "from_name": `${this.state.firstName} ${this.state.lastName} ${this.state.email}`,
-		   "to_name": `Amanda`,
-		   "message_html": `${this.state.message}`
+			let service_id = "default_service";
+			let template_id = "template_3YPduXZv";
+			let userID= "user_zE1UrerM0adcYyjQMV3Tg"
+			
+			emailjs.send(service_id,template_id,template_params, userID)
+			.then(response => {
+		       console.log('SUCCESS!', response.status, response.text);
+		       if (response.status === 200) {
+			       	this.setState(prevState=>({
+			        fireEmailSent: true,
+			      }))
+			   }
+		    }, function(error) {
+		       console.log('FAILED...', error);
+		    });
 		}
-
-		let service_id = "default_service";
-		let template_id = "template_3YPduXZv";
-		let userID= "user_zE1UrerM0adcYyjQMV3Tg"
-		
-		emailjs.send(service_id,template_id,template_params, userID)
-		.then(response => {
-	       console.log('SUCCESS!', response.status, response.text);
-	       if (response.status === 200) {
-		       	this.setState(prevState=>({
-		        fireEmailSent: true,
-		      }))
-		   }
-	    }, function(error) {
-	       console.log('FAILED...', error);
-	    });
   	}
+
 
 
 	render () {
@@ -113,15 +121,27 @@ class Contact extends Component {
 					</form>
 					<div className='submitBox'>
 						<input className='sendButton' type="submit" value="SEND" onClick = {(e) => this.handleClick(e)}/>
+						
 						{this.state.fireEmailSent
 				          ?
 				          <div className= 'fullBackground'>
 				            <div className= 'customAlert'>
 				                 <span><p className='sent'> Email Sent Successfully!</p></span>
-				                  <Link to='/' className ='thankYou' onClick = 'window.location.reload()'> Thank You </Link>
+				                  <Link to='/Contact' className ='thankYou' onClick = 'window.location.reload()'> Thank You </Link>
 				             </div>
 				           </div>
 				          : ''}
+
+				          {this.state.fireEmailNotSent
+				          ?
+				          <div className= 'fullBackgroundNotSent'>
+				            <div className= 'customAlert'>
+				                 <span><p className='sent'> All Fields Required</p></span>
+				                  <Link to='/Contact' className ='thankYou' onClick = 'window.location.reload()'> Close </Link>
+				             </div>
+				           </div>
+				          : ''}
+
 					</div>
 				</div>	
 			</div>	
@@ -134,7 +154,7 @@ export default Contact;
 
 
 
-// if (this.state.firstName === '' && this.state.lastName === '' && this.state.email === '' && this.state.message === '') {
+// if (this.state.firstName === '' || this.state.lastName === '' && this.state.email === '' && this.state.message === '') {
 // 			return(
 // 				<div className= 'fullBackground'>
 // 	            	<div className= 'customAlert'>

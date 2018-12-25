@@ -103,7 +103,7 @@
 		margin-bottom: 20px;
 	}
 
-	.fullBackground {
+	.fullBackground, .fullBackgroundNotSent {
 		position: absolute;
 	    bottom: -16%;
 	    right: 14.5%;
@@ -148,7 +148,7 @@
 }
 
 @media screen and (min-width: 375px){
-	.fullBackground {
+	.fullBackground, .fullBackgroundNotSent {
 		position: absolute;
 	    bottom: 20%;
 	    right: 14.5%;
@@ -278,6 +278,23 @@
 	    padding: 60px 20px;
 	    width: 330px;
 	    height: 200px;
+	    text-align: center;
+	    font-family: header;
+	    font-size: 20px;
+	    border: 1px solid rgb(144, 121, 198, .5);
+	    border-radius: 20px;
+	    z-index: 2;
+	}
+
+	.fullBackgroundNotSent {
+		position: absolute;
+	    bottom: 5%;
+	    right: 35.5%;
+	    background-color: rgb(55,30,113);
+	    color: white;
+	    padding: 30px 20px;
+	    width: 248px;
+	    height: 134px;
 	    text-align: center;
 	    font-family: header;
 	    font-size: 20px;
