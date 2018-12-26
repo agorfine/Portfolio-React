@@ -181,7 +181,7 @@
 	}
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 750px){
 	.contactTitle{
 		text-align: left;
 		color: rgb(55,30,113);
@@ -212,7 +212,7 @@
 	}
 
 	.formTop{
-		margin-top: 40px;
+		margin-top: 75px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
