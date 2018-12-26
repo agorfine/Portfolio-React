@@ -487,6 +487,141 @@
 	}
 }
 
+@media screen and (min-width: 500px) {
+	.heroImage {
+	    background-size: 204%;
+	    height: 684px;
+	}
+
+	.intro {
+		margin-top: 340px;
+		font-size: 25px;
+		padding: 0 20px;
+	}
+	.jobTitle {
+		font-size: 50px;
+		margin-top: 16px;
+	}
+	.jobTitle2 {
+		font-size: 50px;
+		margin-top: -10px;
+	}
+	.space {
+		margin-top: 208px;
+	}
+
+	.lavender {
+		height: 11px;
+	}
+
+	.portfolio, .skills {
+		text-align: center;
+		margin-top: 30px;
+		background-color: white;
+		border-radius: 5px;
+		width: 90%;
+		padding: 5px 5px;
+	}
+
+	.portfolioTitle, .skillsTitle {
+		font-size: 38px;
+		text-align: center;
+		margin-top: 10px;
+	}
+
+	.grid {
+		display: flex;
+		margin: 20px 10px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+
+	.project {
+		height: 130px;
+		width: 130px;
+		margin: 5px;
+		margin-bottom: 10px;
+		text-decoration: none;
+		color: white;
+		border-radius: 5px;
+	}
+
+	.projectTitle {
+		margin-top: 50%;
+		margin-bottom: 50%;
+		color: transparent;
+	}
+	.projectTitleShown{
+		width: 130px;
+		text-align: center;
+		font-size: 18px;
+	}
+
+	.projectContainer{
+		font-size: 15px;
+		align-items: center;
+		margin: 10px 20px;
+	}
+
+	.skill {
+		margin: 25px;
+	}
+
+	.icon {
+		width: 55px;
+		height: 55px;
+	}
+
+	.skillsIconTitle {
+		font-size: 17px;
+	}
+}
+
+@media screen and (min-width: 700px) {
+	.heroImage {
+	    background-size: 156%;
+	    height: 690px;
+	}
+
+	.intro {
+		margin-top: 359px;
+		font-size: 25px;
+		padding: 0 20px;
+	}
+
+	.space {
+		margin-top: 195px;
+	}
+
+	.lavender {
+		height: 11px;
+	}
+
+	.portfolio, .skills {
+		margin-top: 40px;
+	}
+
+	.projectContainer{
+		font-size: 15px;
+		align-items: center;
+		margin: 10px 30px;
+	}
+
+	.skill {
+		margin: 25px;
+	}
+
+	.icon {
+		width: 65px;
+		height: 65px;
+	}
+
+	.skillsIconTitle {
+		font-size: 17px;
+	}
+}
+
+
 @media screen and (min-width: 895px) {
 	.home {
 		color: white;
@@ -551,7 +686,7 @@
 		margin-top: 20px;
 		background-color: white;
 		border-radius: 5px;
-		width: 80%;
+		width: 90%;
 		margin-right: auto;
 		margin-left: auto;
 		padding: 36px 30px;
@@ -575,9 +710,9 @@
 	}
 
 	.project {
-		height: 200px;
-		width: 200px;
-		margin: 40px 30px;
+		height: 180px;
+		width: 180px;
+		margin: 40px 35px;
 		margin-bottom: 10px;
 		text-decoration: none;
 		color: white;
@@ -613,6 +748,7 @@
 		font-family: 'header medium';
 		font-size: 20px;
 		text-decoration: none;
+		margin: 10px 0px;
 	}
 
 	.project1 {
@@ -652,7 +788,7 @@
 		margin: 50px auto 0 auto;
 		background-color: white;
 		border-radius: 5px;
-		width: 80%;
+		width: 90%;
 		padding: 36px 30px;
 		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
 	}
@@ -666,7 +802,7 @@
 	}
 
 	.skill {
-		margin: 50px;
+		margin: 30px;
 	}
 
 	.icon {
@@ -683,4 +819,38 @@
 }
 
 
+@media screen and (min-width: 1090px) {
+	.project {
+		height: 200px;
+		width: 200px;
+		margin: 40px 50px;
+		margin-bottom: 10px;
+		text-decoration: none;
+		color: white;
+		border-radius: 5px;
+		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+		transition: scale 1s;
+	}
 
+	.skill {
+    	margin: 45px;
+	}
+}
+
+@media screen and (min-width: 1270px) {
+	.project {
+		height: 230px;
+		width: 230px;
+		margin: 40px 60px;
+		margin-bottom: 10px;
+		text-decoration: none;
+		color: white;
+		border-radius: 5px;
+		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+		transition: scale 1s;
+	}
+
+	.skill {
+    	margin: 45px;
+	}
+}

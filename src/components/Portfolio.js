@@ -11,7 +11,7 @@ class Portfolio extends Component {
 	render () {
 		return(
 			<div>
-				<MediaQuery query="(min-device-width: 501px)">
+				<MediaQuery query="(min-width: 801px)">
 					<div className = 'background'>
 					<div className = 'portfolioInfo'>		
 							<div className= 'portfolioPageTitle' >PORTFOLIO</div>
@@ -90,7 +90,7 @@ class Portfolio extends Component {
 						</div>	
 					</div>	
 				</MediaQuery>
-				<MediaQuery query="(max-device-width: 500px)">
+				<MediaQuery query="(max-width: 800px)">
 					<MobilePortfolio/>
 				</MediaQuery>
 			</div>

@@ -181,7 +181,7 @@
 	}
 }
 
-@media screen and (min-width: 500px){
+@media screen and (min-width: 700px){
 	.contactTitle{
 		text-align: left;
 		color: rgb(55,30,113);
@@ -317,3 +317,14 @@
 	}
 }
 
+@media screen and (min-width: 1000px){
+	.input{
+		width: 250px;
+	}
+}
+
+@media screen and (min-width: 1200px){
+	.input{
+		width: 275px;
+	}
+}

@@ -108,7 +108,7 @@
 	.portfolioInfo {
 		width: 90%;
 		margin-top: 10px;
-		padding: 5px;
+		padding: 5px 5px 40px 5px;
 		margin-top: 75px;
 	}
 
@@ -259,28 +259,102 @@
 	.doublePictureContainer {
     	width: 80%;
 	}
+
+	.portfolioInfo {
+	    margin-top: 110px;
+	}
 }
 
-@media screen and (min-width: 500px) {
-	.background {
-		background-color: rgb(232,223,255, .5);
-		padding-top: 30px;
+@media screen and (min-width: 600px) {
+	.portfolioPageTitle {
+		font-size: 37px;
+		margin-top: 25px;
 	}
+
+	.portfolioProject1 {
+		margin-top: 45px;
+	}
+
+	.portfolioProject {
+		margin-top: 90px;
+		margin-bottom: 30px;
+	}
+
+	.portfolioInfo {
+		margin-top: 110px;
+	}
+
+	.projectPic {
+		height: 250px;
+    	width: 340px;
+	}
+
+	.projectTitles {
+	    margin-top: 35px;
+	}
+
+	.projectDescription {
+		width: 80%;
+	}
+
+	.project3, .projectDisneyDates {
+    	width: 150px;
+    	height: 285px;
+	}
+
+	.doublePictureContainer{
+		width: 86%;
+	}
+
+	.linkBox {
+		margin-top: 35px;
+	}
+
+	.doublePictureContainer {
+	    justify-content: space-around;
+	}
+
+}
+
+@media screen and (min-width: 700px) {
+
+	.projectInformation {
+	    font-size: 17px;
+	}
+
+	.projectPic {
+		height: 300px;
+    	width: 440px;
+	}
+
+	.projectTitles {
+	    margin-top: 40px;
+	    font-size: 22px;
+	}
+
+	.projectDescription {
+		width: 80%;
+	}
+
+	.project3, .projectDisneyDates {
+		width: 175px;
+    	height: 310px;
+	}
+
+}
+
+@media screen and (min-width: 801px) {
 
 	.portfolioInfo {
 		background-color: white;
 		border-radius: 5px;
-		width: 80%;
+		width: 90%;
 		margin: 100px auto 0 auto;
-		padding: 36px 50px;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+		padding: 36px 27px 60px 27px;
 	}
 
 	.portfolioPageTitle {
-		color: rgb(55,30,113);
-		text-align: center;
 		font-size: 40px;
-		font-family: 'Playfair Display', serif;
 	}
 
 	.portfolioProject1 {
@@ -299,69 +373,179 @@
 		align-items: center;
 	}
 
+	.projectTitles {
+	    margin-top: 40px;
+	    font-size: 18px;
+	}
+
 	.projectPic {
-		height: 300px;
-		width: 400px;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24)
+		height: 230px;
+    	width: 320px;
+	}
+
+	.project3, .projectDisneyDates {
+	    width: 135px;
+	    height: 250px;
 	}
 
 	.projectDescription {
 		text-align: center;
-		width: 400px;
-		color: rgb(55,30,113);
-		margin-top: auto;
-		margin-bottom: auto;
+		width: 47%;
 	}
 
-	.project3 {
-		width: 175px;
-		height: 300px;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+
+	.projectInformation {
+		font-size: 16px;
 	}
 
-	.projectDisneyDates {
-		width: 175px;
-		height: 300px;
-		box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}	
+
+@media screen and (min-width: 900px) {
+
+	.portfolioInfo {
+		padding: 36px 40px 60px 40px;
+	}
+
+	.portfolioPageTitle {
+		font-size: 40px;
+	}
+
+	.portfolioProject1 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 40px;
+		align-items: center;
+	}
+
+	.portfolioProject {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 80px;
+		align-items: center;
 	}
 
 	.projectTitles {
-		font-size: 20px;
-		font-family: 'Playfair Display', serif;
-		color: rgb(55,30,113);
-		text-shadow:
-			-.4px -.4px 0 #dbccfd, 
-			.4px -.4px 0 #dbccfd,
-			-.4px .4px 0 #dbccfd,
-			.4px .4px 0 #dbccfd;
+	    margin-top: 40px;
+	    font-size: 18px;
 	}
 
-	.projectInformation {
-		margin-Top: 15px;
-		margin-bottom: 15px;
-		font-size: 19px;
-		color: rgb(144, 121, 198, .9);
-		font-family: 'header medium';
+	.projectPic {
+		height: 275px;
+    	width: 375px;
 	}
 
-	.linkBox {
-		margin-top: 45px;
-	}
-
-	.gitLink {
-		text-decoration: none;
-		margin-top: 10px;
-		padding: 10px 30px;
-		color: white;
-		background-color: rgb(55,30,113);
-		border-radius: 20px;
-		transition: text-decoration 1s;
-	}
-
-	.gitLink:hover{
-		text-decoration: underline;
-		color: white;
-
+	.project3, .projectDisneyDates {
+	    width: 150px;
+    	height: 280px;
 	}
 }	
 
+@media screen and (min-width: 1050px) {
+
+	.portfolioInfo {
+		padding: 36px 70px 60px 70px;
+	}
+
+	.portfolioPageTitle {
+		font-size: 40px;
+	}
+
+	.projectTitles {
+	    margin-top: 40px;
+	    font-size: 22px;
+	}
+
+	.projectInformation {
+	    font-size: 16px;
+	}
+
+	.portfolioProject1 {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 40px;
+		align-items: center;
+	}
+
+	.portfolioProject {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		margin-top: 80px;
+		align-items: center;
+	}
+
+	.projectTitles {
+	    margin-top: 40px;
+	    font-size: 18px;
+	}
+
+	.projectPic {
+		height: 300px;
+    	width: 440px;
+	}
+
+	.project3, .projectDisneyDates {
+	    width: 175px;
+    	height: 310px;
+	}
+}	
+
+@media screen and (min-width: 1050px) {
+
+	.portfolioPageTitle {
+		font-size: 40px;
+	}
+
+	.projectInformation {
+	    font-size: 16px;
+	}
+
+	.projectTitles {
+	    margin-top: 40px;
+	    font-size: 20px;
+	}
+
+	.projectPic {
+		height: 300px;
+    	width: 440px;
+	}
+
+	.project3, .projectDisneyDates {
+	    width: 175px;
+    	height: 310px;
+	}
+}	
+
+@media screen and (min-width: 1290px) {
+
+	.portfolioPageTitle {
+		font-size: 40px;
+	}
+
+	.projectInformation {
+	    font-size: 18px;
+	    margin-top: 30px;
+	}
+
+	.projectTitles {
+	    margin-top: 40px;
+	    font-size: 20px;
+	}
+
+	.projectPic {
+		height: 350px;
+    	width: 505px;
+	}
+
+	.project3, .projectDisneyDates {
+	    width: 210px;
+    	height: 375px;
+	}
+
+	.linkBox {
+	    margin-top: 45px;
+	}
+}	

@@ -69,6 +69,85 @@
 }
 
 @media screen and (min-width: 500px) {
+	.picMe {
+		margin-top: 20px;
+		height: 300px;
+		width: 300px;
+		border-radius: 150px;
+	}
+
+	.aboutmeText {
+		width: 90%;
+		margin-top: 37px;
+	}
+
+	.aboutmeInfo {
+		font-size: 18px;
+	}
+
+	.aboutMeTitle {
+		font-size: 18px;
+		margin-bottom: 7px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	.aboutmeContainer {
+		margin-top: 40px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.picMe {
+		height: 300px;
+		width: 300px;
+		border-radius: 150px;
+	}
+
+	.aboutmeText {
+		width: 430px;
+		margin: auto 10px;
+		text-align: center;
+	}
+
+	.aboutmeInfo {
+		font-size: 17px;
+	}
+
+	.aboutMeTitle {
+		text-align: left;
+		color: rgb(55,30,113);
+		text-shadow:
+			-.4px -.4px 0 #dbccfd, 
+			.4px -.4px 0 #dbccfd,
+			-.4px .4px 0 #dbccfd,
+			.4px .4px 0 #dbccfd;
+		font-size: 15px;
+		font-family: 'Playfair Display', serif;
+		margin-bottom: 7px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.picMe {
+		height: 350px;
+		width: 350px;
+		border-radius: 175px;
+	}
+
+	.aboutmeText {
+		width: 100%;
+		margin: auto 20px auto 40px;
+		text-align: center;
+	}
+
+	.aboutmeInfo {
+		font-size: 16px;
+	}
+}
+
+@media screen and (min-width: 1000px) {
 	.aboutmeContainer {
 		margin-top: 40px;
 		display: flex;
@@ -83,15 +162,14 @@
 	}
 
 	.aboutmeText {
-		width: 430px;
-		margin-top: auto;
-		margin-bottom: auto;
+		width: 100%;
+		margin: auto 0px auto 60px;
 		text-align: center;
 	}
 
 	.aboutmeInfo {
 		color: rgb(144, 121, 198, .9);
-		font-size: 20px;
+		font-size: 17px;
 		font-family: 'header medium';
 	}
 
@@ -106,5 +184,6 @@
 		font-size: 15px;
 		font-family: 'Playfair Display', serif;
 		margin-bottom: 7px;
+		margin-left: 15px;
 	}
 }
