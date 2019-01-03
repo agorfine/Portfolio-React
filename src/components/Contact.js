@@ -26,9 +26,9 @@ class Contact extends Component {
 
   	handleClick(e) {
   		e.stopPropagation()
-  		console.log('inside click')
+  		// console.log('inside click')
   		if (this.state.firstName === '' || this.state.lastName === '' || this.state.email === '' || this.state.message === '') {
-			console.log('fields not filled')
+			// console.log('fields not filled')
 			this.setState(prevState=>({
 			    fireEmailNotSent: true,
 			}))

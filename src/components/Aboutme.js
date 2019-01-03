@@ -1,4 +1,6 @@
 import React, { Component }  from 'react';
+import Map from './Map.js';
+import ReactMapGL from 'react-map-gl';
 
 class Aboutme extends Component {
 
@@ -7,6 +9,22 @@ class Aboutme extends Component {
 	}
 
 	render () {
+		const viewport= {
+		   width: 600,
+		   height: 400,
+		   latitude: 40.7484,
+		   longitude: -73.9857,
+		   zoom: 11
+		}
+
+		const viewportMobile= {
+		   width: 300,
+		   height: 200,
+		   latitude: 40.7484,
+		   longitude: -73.9857,
+		   zoom: 10
+		} 
+
 		return(
 			<div className = 'background'>
 				<div className = 'portfolioInfo'>
@@ -21,6 +39,7 @@ class Aboutme extends Component {
 							<div className = 'aboutmeInfo'>I enjoy exercising, spending time with friends & family, photography, and coding!</div>
 						</div>
 					</div>
+					
 				</div>	
 			</div>	
 		)
@@ -29,4 +48,6 @@ class Aboutme extends Component {
 }
 
 export default Aboutme;
+
+
 

@@ -205,7 +205,7 @@
 	}
 	.intro {
 		text-align: center;
-		margin-top: 203px;
+		margin-top: 247px;
 		font-size: 19px;
 		padding: 0 20px;
 	}
@@ -222,7 +222,7 @@
 		font-family: 'Playfair Display', serif;
 	}
 	.space {
-		margin-top: 197px;
+		margin-top: 153px;
 	}
 
 	.lavender {
@@ -305,7 +305,7 @@
 	}
 
 	.intro {
-		margin-top: 285px;
+		margin-top: 359px;
 		font-size: 23px;
 		padding: 0 20px;
 	}
@@ -318,7 +318,7 @@
 		margin-top: -10px;
 	}
 	.space {
-		margin-top: 322px;
+		margin-top: 247px;
 	}
 
 	.lavender {
@@ -404,7 +404,7 @@
 	}
 
 	.intro {
-		margin-top: 260px;
+		margin-top: 335px;
 		font-size: 25px;
 		padding: 0 20px;
 	}
@@ -417,7 +417,7 @@
 		margin-top: -10px;
 	}
 	.space {
-		margin-top: 269px;
+		margin-top: 195px;
 	}
 
 	.lavender {
@@ -489,7 +489,7 @@
 
 @media screen and (min-width: 500px) {
 	.heroImage {
-	    background-size: 204%;
+	    background-size: 220%;
 	    height: 684px;
 	}
 

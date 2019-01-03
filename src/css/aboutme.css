@@ -187,3 +187,8 @@
 		margin-left: 15px;
 	}
 }
+
+.map {
+	display: flex;
+	justify-content: center;
+}
