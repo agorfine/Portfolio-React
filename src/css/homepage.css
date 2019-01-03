@@ -139,8 +139,8 @@
 }
 
 .project3Home {
-	background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1544733479/Screen_Shot_2018-12-13_at_3.37.47_PM.png);
-	background-size: cover;
+	background: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1546551183/Screen_Shot_2019-01-03_at_4.32.53_PM.png) -7px 0;
+    background-size: 111%;
 	background-repeat: no-repeat;
 }
 
@@ -765,8 +765,8 @@
 	}
 
 	.project3Home {
-		background-image: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1544733479/Screen_Shot_2018-12-13_at_3.37.47_PM.png);
-		background-size: cover;
+		background: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1546551183/Screen_Shot_2019-01-03_at_4.32.53_PM.png) -8px 0;
+    	background-size: 111%;
 		background-repeat: no-repeat;
 	}
 
@@ -835,6 +835,12 @@
 	.skill {
     	margin: 45px;
 	}
+
+	.project3Home {
+	    background: url(https://res.cloudinary.com/drsaojfyp/image/upload/v1546551183/Screen_Shot_2019-01-03_at_4.32.53_PM.png) -11px 0;
+	    background-size: 111%;
+	    background-repeat: no-repeat;
+	}
 }
 
 @media screen and (min-width: 1270px) {
@@ -853,4 +859,5 @@
 	.skill {
     	margin: 45px;
 	}
+
 }

@@ -58,7 +58,7 @@ class MobilePortfolio extends Component {
 						</div>
 					</div>
 					<div className = 'portfolioProject'>
-						<img className = 'projectPic project4' src="https://res.cloudinary.com/drsaojfyp/image/upload/v1544733270/Screen_Shot_2018-12-13_at_3.34.17_PM.png" alt= "project1"/>
+						<img className = 'projectPic project4' src="https://res.cloudinary.com/drsaojfyp/image/upload/v1546551877/Screen_Shot_2019-01-03_at_4.44.15_PM.png" alt= "project1"/>
 						<div className = 'projectDescription'>
 							<div className = 'projectTitles'>Tic-Tac-Toe  |  HTML, CSS, JavaScript</div>
 							<div className = 'projectInformation'>For a homework assignment, we were tasked to create a tic-tac-toe game. Users must click on a square to render an X for player 1 and an O for player 2.</div>
