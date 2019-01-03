@@ -35,7 +35,7 @@ class Home extends Component {
 								<div className='projectTitleShown'>Disney Trip Adviser</div>
 							</div>	
 							<div className= 'projectContainer'>
-								<a className = 'project project3Home' href="https://agorfine.github.io/tic-tac-toe/" target="_blank" rel="noopener noreferrer">
+								<a className = 'project project3Home' href="https://zealous-poincare-0e180c.netlify.com/" target="_blank" rel="noopener noreferrer">
 									<div className = 'projectTitle'>Instagram</div>
 								</a>
 								<div className='projectTitleShown'>Tic-Tac-Toe</div>
